@@ -1,0 +1,553 @@
+.franciscan-alumni-header {
+    background-color: white;
+    border-bottom: 3px solid #bab193;
+    align-items: center;
+    position: fixed;
+    z-index: 15;
+}
+.franciscan-alumni-header .header-logo {
+    width: 250px;
+}
+.franciscan-alumni-header-leftside, 
+.franciscan-alumni-header-rightside {
+    padding: 10px;
+}
+.franciscan-alumni-header-rightside {
+    flex: 1;
+    display: flex;
+    display: -ms-flexbox;
+    justify-content: flex-end;
+}
+.franciscan-alumni-header-rightside ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.franciscan-alumni-header-rightside ul li {
+    display: inline-block;
+}
+.franciscan-alumni-header-rightside li a {
+    text-decoration: none;
+    color: #2b2b2b;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    margin: 0 8px;
+}
+.franciscan-alumni-header-rightside li a:hover {
+    text-decoration: underline;
+}
+.franciscan-alumni-header ul .li-btn a {
+    padding: 0.5em 0.8em;
+    margin: 0 4px;
+    color: white;
+    font-weight: 500;
+    font-size: 0.95em;
+    border-radius: 25px;
+    transition: 0.2s;
+}
+.franciscan-alumni-header ul .li-btn-green a {
+    background-color: #21412a;
+}
+.franciscan-alumni-header ul .li-btn-gold a {
+    background-color: #998643;
+}
+.franciscan-alumni-header ul .li-btn a:hover {
+    text-decoration: none;
+    background-color: #8b3a19;
+}
+
+.franciscan-alumni-header .ham-menu {
+    position: relative;
+    width: 30px;
+    height: 19px;
+    margin-left: 1em;
+    margin-right: 0.5em;
+    cursor: pointer;
+}
+.franciscan-alumni-header .ham-menu span {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #2b2b2b;
+}
+.franciscan-alumni-header .ham-menu span:nth-child(2) {
+    top: 8px;
+}
+.franciscan-alumni-header .ham-menu span:nth-child(3) {
+    top: 16px;
+}
+
+@media only screen and (max-width: 870px) {
+    .franciscan-alumni-header-rightside ul {
+        display: none;
+    }
+}
+
+.alumni-career-services-row {
+    background-image: url('https://encounter.franciscan.edu/images/alumni.jpg');
+}
+.alumni-career-services-row-gradient {
+    background: linear-gradient(90deg, #2b2b2b, #2b2b2bb3, transparent);
+}
+.alumni-career-services-row .root-lowercase-btn {
+    margin-left: 0;
+}
+
+.alumni-boxes-row {
+    background: linear-gradient(180deg, #e7e7e7, transparent);
+}
+.alumni-boxes-row .alumni-three-link-box {
+    background-color: white;
+    height: 100%;
+    border-radius: 25px;
+    margin: 0 1em;
+    overflow: hidden;
+}
+.alumni-boxes-row .alumni-three-link-box-wrap {
+    height: 100%;
+    padding: 0 10px;
+    text-align: center;
+    display: flex;
+    display: -ms-flexbox;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.alumni-boxes-row .alumni-three-link-box .icon {
+    width: 70px;
+    height: 70px;
+    max-width: 70px;
+    max-height: 70px;
+    min-width: 70px;
+    min-height: 70px;
+    margin: 2em auto 0;
+    border: 1px solid #998643;
+    border-radius: 50%;
+    display: flex;
+    display: -ms-flexbox;
+    justify-content: center;
+    align-items: center;
+}
+.alumni-boxes-row .alumni-three-link-box .icon i {
+    font-size: 2.1em;
+}
+.alumni-boxes-row .alumni-three-link-box .title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.6em;
+    margin-top: 10px;
+    margin-bottom: 0;
+    line-height: 1.3em;
+}
+.alumni-boxes-row .alumni-three-link-box .desc {
+    margin-top: 4px;
+}
+.alumni-boxes-row .alumni-three-link-box .root-lowercase-btn {
+    margin-bottom: 2em;
+}
+
+.legends-podcast-row {
+    background-color: #2b2b2b;
+    margin-top: 0;
+    padding-bottom: 3em;
+}
+.lfth-h2 {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    letter-spacing: 7px;
+}
+.hp-legends-phone-img {
+    margin-top: -8em;
+    text-align: right;
+}
+.hp-legends-phone-img img {
+    transition: 0.3s;
+}
+.hp-legends-phone-img img:hover {
+    transform: translateY(-20px);
+}
+.legends-podcast-row .content {
+    padding-top: 1.5em;
+    padding-left: 1em;
+}
+.legends-podcast-row .root-lowercase-btn {
+    margin-left: 0;
+}
+
+.stay-connected-phone-row {
+    padding-top: 5em;
+}
+.stay-connected-phone-row .title {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+}
+.stay-connected-phone-row .icon-row {
+    display: flex;
+    display: -ms-flexbox;
+}
+.stay-connected-phone-row .icon {
+    background-color: #998643;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    max-width: 80px;
+    max-height: 80px;
+    min-width: 80px;
+    min-height: 80px;
+    display: flex;
+    display: -ms-flexbox;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+.stay-connected-phone-row .icon i {
+    color: white;
+    font-size: 2.4em;
+}
+.stay-connected-phone-row .icon:hover {
+    background-color: #21412a;
+}
+
+.class-notes-row .root-lowercase-btn {
+    margin-left: 0;
+}
+.class-notes-row .icon-row {
+    display: flex;
+    display: -ms-flexbox;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    margin-right: 1em;
+}
+.class-notes-row .icon-row i {
+    font-size: 6em;
+    margin: 0 10px;
+}
+.alumni-magazine-row {
+    background-color: #21412a;
+    background-image: url('https://faithandreason.com/wp-content/uploads/2022/12/faith-reason-hp-mag-bkgd-small.png');
+}
+.alumni-magazine-row-overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.489);
+}
+
+.alumni-magazine-row {
+    background-image: url('https://encounter.franciscan.edu/images/alumni-mag-bkgd.png');
+    background-color: #21412a;
+}
+.alumni-magazine-row-overlay {
+    background-color: #212121db;
+}
+.alumni-magazine-row .img-wrap {
+    width: 300px;
+    margin-right: 2em;
+    margin-left: auto;
+}
+.alumni-magazine-row .img-wrap img {
+    width: 100%;
+}
+.alumni-magazine-row .desc {
+    color: white;
+}
+.alumni-magazine-row .root-lowercase-btn {
+    margin-left: 0;
+}
+.alumni-magazine-row .magazine-col {
+    display: flex;
+    display: -ms-flexbox;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* === Footer ============ */
+.alumni-footer .footer-list-header {
+    font-weight: 600;
+    line-height: 1.3em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.alumni-footer ul {
+    padding-left: 0;
+    margin-top: 10px;
+}
+.alumni-footer li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+.alumni-footer li a {
+    color: #2b2b2b;
+    text-decoration: none;
+}
+.alumni-footer li a:hover {
+    text-decoration: underline;
+}
+.alumni-footer .icon-row {
+    display: flex;
+    display: -ms-flexbox;
+}
+.alumni-footer .icon-row .icon {
+    background-color: #998643;
+    border-radius: 50%;
+    display: flex;
+    display: -ms-flexbox;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+.alumni-footer .icon-row .icon i {
+    color: white;
+}
+.alumni-footer .icon-row .icon:hover {
+    background-color: #21412a;
+}
+.alumni-footer .icon-row-left .icon {
+    width: 40px;
+    height: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    min-width: 40px;
+    min-height: 40px;
+}
+.alumni-footer .icon-row-right {
+    justify-content: flex-end;
+    margin-top: 1em;
+}
+.alumni-footer .icon-row-right .icon-holder {
+    text-decoration: none;
+    width: min-content;
+    margin: 0 5px;
+}
+.alumni-footer .icon-row-right .icon-holder p {
+    color: #2b2b2b;
+    text-align: center;
+    font-size: 0.85em;
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+.alumni-footer .icon-row-right .icon {
+    width: 60px;
+    height: 60px;
+    max-width: 60px;
+    max-height: 60px;
+    min-width: 60px;
+    min-height: 60px;
+    margin: auto;
+}
+.alumni-footer .icon-row-right .icon i {
+    font-size: 2em;
+}
+.alumni-footer .icon-row-right .icon-holder:hover .icon {
+    background-color: #21412a;
+}
+.alumni-footer .footer-fran-logo {
+    width: 300px;
+}
+.alumni-footer-bottom {
+    padding-top: 1em;
+    border-top: 1px solid #2b2b2b;
+    margin-top: 2em;
+    align-items: center;
+}
+
+
+
+
+.top-btn-row {
+    margin-top: -5em;
+}
+.top-btn-row .top-btn {
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.top-btn-circle {
+    width: 180px;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    border: 4px solid transparent;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.top-btn-icon {
+    position: relative;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    display: -ms-flexbox;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.3em;
+    color: black;
+    border: 1px solid;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.top-btn-icon i {
+    color: black;
+    position: relative;
+}
+.top-btn-row .top-btn:hover .top-btn-icon {
+    transform: scale(1.1);
+}
+.top-btn-row .title {
+    color: #21412a;
+    font-size: 1.3em;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+.top-btn:hover .top-btn-circle {
+    border: 4px solid #998643;
+}
+.hp-events-h2 {
+    font-weight: 500;
+    font-size: 1.4em;
+    border-bottom: 2px solid black;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+}
+.hp-event-card {
+    margin: 0.5em;
+    height: 100%;
+}
+.hp-event-card-wrap {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    display: -ms-flexbox;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    height: 100%;
+    transition: 0.2s;
+}
+.hp-event-card-wrap:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.523);
+    transform: scale(1.01);
+}
+.hp-event-card .content {
+    padding: 0 1em;
+}
+.hp-event-card img {
+    width: 100%;
+}
+.hp-event-card .title {
+    font-weight: 500;
+    font-size: 1.1em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.hp-event-card .date {
+    border: 1px solid #2b2b2b;
+    width: fit-content;
+    padding: 3px 5px;
+    margin-top: 0;
+}
+.hp-event-card .desc {
+    margin-bottom: 0;
+}
+.hp-event-card .root-lowercase-btn {
+    margin-bottom: 2em;
+}
+
+
+.header-padding {
+    padding-top: 57px;
+}
+.alumni-home-hero {
+    background-size: cover;
+    background-position-y: bottom;
+    background-image: url('https://franciscan.edu/wp-content/uploads/2021/11/grad-admissions-campus-photo_optimized-scaled-1.jpg');
+}
+.alumni-home-hero-gradient {
+    background: linear-gradient(0deg, #000000d4, #00000085, transparent);
+}
+.alumni-home-hero-events-row {
+    background-color: #ffffff9c;
+    padding-top: 10px;
+}
+.alumni-home-hero-events-row .hero-event-box {
+    display: block;
+    border-radius: 7px;
+    margin: 0 10px;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    transition: 0.4s;
+}
+.alumni-home-hero-events-row .hero-event-box:hover {
+    transform: scale(1.05);
+}
+.alumni-home-hero-events-row .hero-event-box-wrap {
+    padding: 1em;
+}
+.alumni-home-hero-events-row .hero-event-box i {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    transform: rotate(317deg);
+    font-size: 1.3em;
+    transition: 0.4s;
+}
+.alumni-home-hero-events-row .hero-event-box .title {
+    font-size: 1.1em;
+    font-weight: 500;
+    margin: 0;
+}
+.alumni-home-hero-events-row .hero-event-box .date {
+    margin: 0;
+    color: #21412a;
+}
+.alumni-home-hero-welcome-row {
+    padding-top: 3em;
+}
+.alumni-home-hero-welcome-row p {
+    color: white;
+}
+.alumni-home-hero h1 {
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 3.7em;
+    font-style: oblique;
+    margin-bottom: 0;
+    text-align: center;
+    text-shadow: 0 5px 15px black;
+}
+.alumni-home-hero .hero-tagline {
+    color: #fbb555;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.07em;
+    text-shadow: 0 5px 15px black;
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 1.5em;
+}
+
+.baron-bridge-logo-home {
+    width: 100%;
+    max-width: 450px;
+}
+.baron-bridge-tagline {
+    color: #bab193;
+    font-size: 1.4em;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 0;
+}
